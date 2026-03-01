@@ -20,7 +20,7 @@ package io.github.bekoenig.getdown.maven;
 /**
  * Keystore configuration
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author tchemit {@code <chemit@codelutin.com>}
  * @since 1.0-beta-3
  */
 public class KeystoreConfig {

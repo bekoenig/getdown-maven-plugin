@@ -24,7 +24,7 @@ import java.io.File;
 /**
  * Tool api for jarsigner operations.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author tchemit {@code <chemit@codelutin.com>}
  * @since 1.0-beta-3
  */
 public interface SignTool {

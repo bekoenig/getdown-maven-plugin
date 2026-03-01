@@ -18,7 +18,6 @@ based on [Webstart Maven Plugin](https://www.mojohaus.org/webstart/webstart-mave
 > To ensure the plugin remains compatible with the latest Getdown features and fixes, this fork:
 > * **Migrated to `bekoenig/getdown`** as the underlying engine.
 > * **Resumed maintenance** to provide a reliable version for the community.
----
 
 ## Features
 

@@ -36,7 +36,7 @@ public interface SignTool {
 
     /**
      * Obtain the location of the given keystore.
-     * <p/>
+     * <p>
      * If the keystore is a file then just return it, otherwise if is a resource
      * from class path or a valid url, then copy the resource to given working
      * keystore location.

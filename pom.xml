@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.bekoenig.getdown</groupId>
     <artifactId>getdown-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
     <name>Getdown Maven Plugin</name>
-    <version>0.9.2-SNAPSHOT</version>
+    <version>0.9.2</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +20,7 @@
         <connection>scm:git:git@github.com:bekoenig/getdown-maven-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:bekoenig/getdown-maven-plugin.git</developerConnection>
         <url>https://github.com/bekoenig/getdown-maven-plugin</url>
-        <tag>HEAD</tag>
+        <tag>0.9.2</tag>
     </scm>
 
     <developers>
@@ -188,8 +187,7 @@
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>jar-shaded</shadedClassifierName>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer">
                                 </transformer>
                             </transformers>
                             <artifactSet>

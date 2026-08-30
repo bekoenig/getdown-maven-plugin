@@ -4,7 +4,7 @@
     <artifactId>getdown-maven-plugin</artifactId>
     <packaging>maven-plugin</packaging>
     <name>Getdown Maven Plugin</name>
-    <version>0.9.3-SNAPSHOT</version>
+    <version>0.9.3</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,7 +20,7 @@
         <connection>scm:git:git@github.com:bekoenig/getdown-maven-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:bekoenig/getdown-maven-plugin.git</developerConnection>
         <url>https://github.com/bekoenig/getdown-maven-plugin</url>
-        <tag>HEAD</tag>
+        <tag>0.9.3</tag>
     </scm>
 
     <developers>

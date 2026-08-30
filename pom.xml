@@ -151,6 +151,14 @@
             <version>${getdown.version}</version>
             <classifier>jar-with-dependencies</classifier>
             <scope>runtime</scope>
+            <!-- Prevent transitive dependencies from polluting the plugin classpath and causing conflicts (e.g. SLF4J
+            version mismatches). The launcher JAR is only copied as a resource. -->
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
@@ -184,8 +192,6 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <shadedArtifactAttached>true</shadedArtifactAttached>
-                            <shadedClassifierName>jar-shaded</shadedClassifierName>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer">
                                 </transformer>

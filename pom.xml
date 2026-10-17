@@ -8,7 +8,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.api.version>3.0</maven.api.version>
+        <maven.api.version>3.3.9</maven.api.version>
         <getdown.version>2.0.1</getdown.version>
     </properties>
 
